@@ -1,0 +1,19 @@
+@import "variables";
+@import "resets";
+@import "typography.scss";
+@import "layout.scss";
+
+
+
+.attribution {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: $white;
+    font-size: 11px;
+    text-align: center;
+
+    a {
+        color: hsl(228, 45%, 44%);
+    }
+}

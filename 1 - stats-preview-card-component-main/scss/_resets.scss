@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: $primary-dark-blue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+a, li {
+    text-decoration: none;
+    list-style: none;
+}
