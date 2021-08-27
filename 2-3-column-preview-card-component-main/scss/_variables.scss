@@ -1,0 +1,37 @@
+// Colors
+$primary-bright-orange: hsl(31, 77%, 52%);
+$primary-dark-cyan: hsl(184, 100%, 22%);
+$primary-very-dark-cyan: hsl(179, 100%, 13%);
+
+// Neutral - Colors
+$transparent-white: hsla(0, 0%, 100%, 0.75);
+$light-grey: hsl(0, 0%, 95%);
+
+// Typography
+$font-size: 0.938rem;
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+$lexend: 'Lexend Deca', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+$bsd: 'Big Shoulders Display', cursive;
+
+
+// Layout
+$mobile: 375px;
+$desktop: 1440px;
+$bg: $light-grey;
+
+// Headings
+$heading-color: $light-grey;
+$heading-ff: $bsd;
+
+// Paragraphs
+$paragraph-color: $transparent-white;
+$paragraph-ff: $lexend;
+$paragraph-fs: $font-size;
+
+// Buttons
+$button-color: $light-grey;
+$button-ff: $lexend;
+$button-fs: $font-size;

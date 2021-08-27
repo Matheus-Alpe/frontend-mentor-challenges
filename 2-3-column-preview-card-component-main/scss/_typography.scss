@@ -1,0 +1,18 @@
+@import 'mixins';
+
+.card {
+    &__title {
+        @include font($heading-color, $heading-ff);
+        text-transform: uppercase;
+    }
+
+    &__description {
+        @include font($paragraph-color, $paragraph-ff, $paragraph-fs);
+        line-height: 1.8;
+    }
+
+    &__button {
+        @include font($button-color, $button-ff, $button-fs);
+        text-transform: capitalize;
+    }
+}
