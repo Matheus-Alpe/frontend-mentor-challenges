@@ -10,7 +10,4 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Built with
 
-- Semantic HTML5
-- SASS <sub>(Used - Live Sass Compiler)</sub>
-- CSS Flexbox
-- CSS Grid
+- SCSS <sub>(Used - Live Sass Compiler)</sub>
